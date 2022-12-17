@@ -107,5 +107,10 @@
       }
     }
   },
-  "defaultProject": "crypto-tracker-angular"
+  "defaultProject": "crypto-tracker-angular",
+  "cli": {
+    "warnings": {
+      "versionMismatch": false
+    }
+  }
 }

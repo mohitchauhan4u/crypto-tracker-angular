@@ -20,7 +20,7 @@ $crypto-tracker-angular-warn: mat.define-palette(mat.$red-palette);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$crypto-tracker-angular-theme: mat.define-light-theme((
+$crypto-tracker-angular-theme: mat.define-dark-theme((
   color: (
     primary: $crypto-tracker-angular-primary,
     accent: $crypto-tracker-angular-accent,

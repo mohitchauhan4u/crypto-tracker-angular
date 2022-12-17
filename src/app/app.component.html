@@ -2,5 +2,16 @@
   <mat-toolbar>
     <span>Crypto Tracker</span>
     <span class="example-spacer"></span>
+    <mat-form-field>
+      <mat-select
+        (valueChange)="changeCurrency($event)"
+        class="text-sm"
+        [(ngModel)]="selectedCurrency"
+      >
+        <mat-option *ngFor="let currency of currencyArray" [value]="currency">{{
+          currency
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
   </mat-toolbar>
 </p>
