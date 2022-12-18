@@ -12,6 +12,9 @@ import { FormsModule } from '@angular/forms';
 import { CoinListComponent } from './views/coin-list/coin-list.component';
 import { CoinDetailComponent } from './views/coin-detail/coin-detail.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [AppComponent, CoinListComponent, CoinDetailComponent],
@@ -25,6 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatFormFieldModule,
     MatInputModule,
     HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

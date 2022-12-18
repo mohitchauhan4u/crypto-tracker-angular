@@ -36,4 +36,20 @@ $crypto-tracker-angular-theme: mat.define-dark-theme((
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #212121;}
+
+.mat-sort-header-content {
+  color: #fff;
+}
+
+.mat-paginator-outer-container {
+  background-color: rgb(36, 37, 37);
+}
+
+tr.mat-header-row {
+  background-color: #009688;
+}
+
+// tr.mat-row {
+//   height: 70px;
+// }
