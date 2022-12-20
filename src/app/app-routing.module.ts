@@ -1,5 +1,5 @@
-import { CoinDetailComponent } from './views/coin-detail/coin-detail.component';
-import { CoinListComponent } from './views/coin-list/coin-list.component';
+import { CoinDetailComponent } from './coin-detail/coin-detail.component';
+import { CoinListComponent } from './coin-list/coin-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 

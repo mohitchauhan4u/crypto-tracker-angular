@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "crypto-tracker-angular": {
+    "crypto-checker-yt": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/crypto-tracker-angular",
+            "outputPath": "dist/crypto-checker-yt",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "crypto-tracker-angular:build:production"
+              "browserTarget": "crypto-checker-yt:build:production"
             },
             "development": {
-              "browserTarget": "crypto-tracker-angular:build:development"
+              "browserTarget": "crypto-checker-yt:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "crypto-tracker-angular:build"
+            "browserTarget": "crypto-checker-yt:build"
           }
         },
         "test": {
@@ -107,9 +107,5 @@
       }
     }
   },
-  "cli": {
-    "warnings": {
-      "versionMismatch": false
-    }
-  }
+  "defaultProject": "crypto-checker-yt"
 }
