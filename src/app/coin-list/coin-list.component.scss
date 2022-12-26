@@ -75,6 +75,10 @@ th {
   font-size: 14px;
 }
 
+::ng-deep .mat-sort-header-arrow {
+  color: #16171a;
+}
+
 :host ::ng-deep .mat-paginator-outer-container {
   background-color: rgb(36, 37, 37);
 }
@@ -86,4 +90,12 @@ th {
 
 :host ::ng-deep tr.mat-row {
   height: 70px;
+}
+.positive-class {
+  color: rgb(14, 203, 129);
+  font-weight: 500;
+}
+.negative-class {
+  color: red;
+  font-weight: 500;
 }
