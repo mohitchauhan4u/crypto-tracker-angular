@@ -80,7 +80,7 @@ th {
 }
 
 :host ::ng-deep .mat-paginator-outer-container {
-  background-color: rgb(36, 37, 37);
+  background-color: #16171a;
 }
 
 :host ::ng-deep tr.mat-header-row {
@@ -90,6 +90,7 @@ th {
 
 :host ::ng-deep tr.mat-row {
   height: 70px;
+  cursor: pointer;
 }
 .positive-class {
   color: rgb(14, 203, 129);
