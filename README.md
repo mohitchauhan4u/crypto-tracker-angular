@@ -1,5 +1,5 @@
 # Crypto Tracker Angular
-Build wih Angular and Chart Js
+Build wih Angular, Angular Materail and Chart Js
 
 ## Dashboard
 ![alt text](https://github.com/mohitchauhan4u/crypto-tracker-angular/blob/master/crypto-tracker-dashboard.png)
