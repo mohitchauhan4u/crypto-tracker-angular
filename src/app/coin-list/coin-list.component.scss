@@ -100,3 +100,15 @@ th {
   color: red;
   font-weight: 500;
 }
+
+.marquee-container {
+  animation: 10s linear infinite running;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
