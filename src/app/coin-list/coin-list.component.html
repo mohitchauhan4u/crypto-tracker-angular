@@ -16,12 +16,25 @@
           <ng-container *ngFor="let row of bannerData">
             <div class="col-1">
               <div class="card">
-                <img [src]="row.image" width="100" class="img-fluid" alt="" />
+                <img
+                  [src]="row.image"
+                  width="100"
+                  class="img-fluid"
+                  alt="card-img"
+                />
                 <div class="card-body">
                   <h5 class="card-title">
                     {{ row.symbol | uppercase }}
-                    <span class="text-danger"
-                      >{{ row.market_cap_change_percentage_24h }}%</span
+                    <span
+                      [ngClass]="
+                        row.price_change_percentage_24h >= 0
+                          ? 'positive-class '
+                          : 'negative-class'
+                      "
+                      ><span *ngIf="row.price_change_percentage_24h > 0"
+                        >+</span
+                      >
+                      <span>{{ row.price_change_percentage_24h }}% </span></span
                     >
                   </h5>
                   <p class="card-text">
